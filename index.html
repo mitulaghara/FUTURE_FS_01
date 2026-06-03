@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>Mitul Aghara | Full Stack Web Developer & MERN Specialist</title>
+  <meta name="description"
+    content="Portfolio of Mitul Aghara - Computer Science Student, MERN Stack Developer, and Full Stack Web Development Intern at Future Interns. Explore my projects, skills, and resume.">
+  <meta name="keywords"
+    content="Mitul Aghara, Mitul Jagadishbhai Aghara, MERN Stack Developer, Full Stack Developer, Portfolio, Future Interns, Web Developer, React Developer, Node.js, MongoDB">
+  <meta name="author" content="Mitul Aghara">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/mitulaghara">
+  <meta property="og:title" content="Mitul Aghara | Full Stack Web Developer">
+  <meta property="og:description"
+    content="Explore the portfolio of Mitul Aghara, MERN stack developer and full-stack web intern. Clean code, responsive designs, and robust backends.">
+  <meta property="og:image" content="avatar.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://github.com/mitulaghara">
+  <meta property="twitter:title" content="Mitul Aghara | Full Stack Web Developer">
+  <meta property="twitter:description"
+    content="Explore the portfolio of Mitul Aghara, MERN stack developer and full-stack web intern. Clean code, responsive designs, and robust backends.">
+  <meta property="twitter:image" content="avatar.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="avatar.png">
+
+  <!-- Boxicons CDN for modern icon pack -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       Header & Navigation
+       ========================================================================== -->
+  <header class="main-header" id="main-header">
+    <div class="container">
+      <a href="#home" class="logo" id="header-logo">
+        <i class='bx bx-code-alt'></i> Mitul<span>.</span>
+      </a>
+
+      <nav class="nav-bar" id="nav-bar">
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+            <i class='bx bx-sun sun-icon'></i>
+            <i class='bx bx-moon moon-icon'></i>
+          </button>
+          <a href="#contact" class="btn btn-secondary btn-sm">Hire Me</a>
+        </div>
+      </nav>
+
+      <div class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Open Mobile Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       Hero Section
+       ========================================================================== -->
+  <section class="hero-section" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-bg-circle-1"></div>
+    <div class="hero-bg-circle-2"></div>
+
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content reveal active">
+          <div class="hero-greeting">
+            <span class="badge">MERN Stack Developer</span>
+            <span class="wave">👋</span> Hello, I am
+          </div>
+          <h1 class="hero-title">Mitul <span class="highlight">Aghara</span></h1>
+          <div class="hero-subtitle">
+            CS Student & <span class="highlight" id="dynamic-text">Web Developer</span>
+          </div>
+          <p class="hero-description">
+            I build high-performance, responsive, and database-driven full stack web applications. Currently refining my
+            skills as a Full Stack Web Development Intern at Future Interns.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work <i class='bx bx-right-arrow-alt'></i></a>
+            <button class="btn btn-secondary" id="hero-btn-resume">Interactive Resume <i
+                class='bx bx-file'></i></button>
+          </div>
+
+          <div class="hero-socials">
+            <span class="hero-socials-label">Connect:</span>
+            <a href="https://github.com/mitulaghara" target="_blank" rel="noopener" class="social-link"
+              aria-label="GitHub Profile">
+              <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mitul-aghara-602a72332" target="_blank" rel="noopener"
+              class="social-link" aria-label="LinkedIn Profile">
+              <i class='bx bxl-linkedin'></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal active">
+          <div class="avatar-container">
+            <img src="avatar.png" alt="Mitul Aghara Professional Profile" class="avatar-image">
+            <div class="floating-badge fb-1">
+              <i class='bx bxl-react' style="color: #61dafb;"></i> React.js
+            </div>
+            <div class="floating-badge fb-2">
+              <i class='bx bxl-nodejs' style="color: #68a063;"></i> Node.js
+            </div>
+            <div class="floating-badge fb-3">
+              <i class='bx bxl-mongodb' style="color: #4db33d;"></i> MongoDB
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       About Me Section
+       ========================================================================== -->
+  <section class="section section-bg" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">Get to Know Me</span>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-stats">
+            <div class="stat-card">
+              <div class="stat-number">6+</div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">4+</div>
+              <div class="stat-label">Core Technologies</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">1+</div>
+              <div class="stat-label">Internship</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Dedication</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text reveal">
+          <h3>MERN Stack Developer & Computer Science Student</h3>
+          <p>
+            I am a passionate Computer Science student and a dedicated MERN Stack Developer. I love turning complex
+            ideas into functional, clean, and interactive web applications. My focus is on writing modular,
+            self-explanatory code and building seamless user interfaces backed by robust database solutions.
+          </p>
+          <p>
+            Currently, I am working as a Full Stack Web Development Intern under the Fellowship Program at Future
+            Interns. This opportunity allows me to build real-world systems, collaborate on challenges, and integrate
+            clean frontend frameworks with scalable database architectures.
+          </p>
+
+          <ul class="about-meta">
+            <li><i class='bx bx-chevron-right'></i> <strong>Location:</strong> Gujarat, India</li>
+            <li><i class='bx bx-chevron-right'></i> <strong>Availability:</strong> Full-Time / Internships</li>
+            <li><i class='bx bx-chevron-right'></i> <strong>Education:</strong> Bachelor of Computer Science</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Skills Section
+       ========================================================================== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">My Expertise</span>
+        <h2>Skills & Tech Stack</h2>
+      </div>
+
+      <div class="skills-wrapper reveal">
+        <ul class="skills-tabs">
+          <li><button class="skills-tab-btn active" data-filter="all">All Skills</button></li>
+          <li><button class="skills-tab-btn" data-filter="frontend">Frontend</button></li>
+          <li><button class="skills-tab-btn" data-filter="backend">Backend & DB</button></li>
+          <li><button class="skills-tab-btn" data-filter="tools">Developer Tools</button></li>
+        </ul>
+
+        <div class="skills-grid" id="skills-grid">
+          <!-- Skills are dynamically listed here, or hardcoded with tags for filters -->
+
+          <!-- Frontend -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrapper"><i class='bx bxl-react'></i></div>
+            <div class="skill-info">
+              <h4>React.js</h4>
+              <span>Frontend Framework</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrapper"><i class='bx bxl-javascript'></i></div>
+            <div class="skill-info">
+              <h4>JavaScript (ES6+)</h4>
+              <span>Programming Language</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrapper"><i class='bx bxl-html5'></i></div>
+            <div class="skill-info">
+              <h4>HTML5</h4>
+              <span>Hypertext Markup</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrapper"><i class='bx bxl-css3'></i></div>
+            <div class="skill-info">
+              <h4>CSS3</h4>
+              <span>Cascading Style Sheets</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrapper"><i class='bx bxl-tailwind-css'></i></div>
+            <div class="skill-info">
+              <h4>Tailwind CSS</h4>
+              <span>Styling Utility</span>
+            </div>
+          </div>
+
+          <!-- Backend & DB -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrapper"><i class='bx bxl-nodejs'></i></div>
+            <div class="skill-info">
+              <h4>Node.js</h4>
+              <span>Runtime Environment</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrapper"><i class='bx bx-server'></i></div>
+            <div class="skill-info">
+              <h4>Express.js</h4>
+              <span>Backend Framework</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrapper"><i class='bx bxl-mongodb'></i></div>
+            <div class="skill-info">
+              <h4>MongoDB</h4>
+              <span>NoSQL Database</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrapper"><i class='bx bx-data'></i></div>
+            <div class="skill-info">
+              <h4>MySQL</h4>
+              <span>Relational Database</span>
+            </div>
+          </div>
+
+          <!-- Developer Tools -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-icon-wrapper"><i class='bx bxl-git'></i></div>
+            <div class="skill-info">
+              <h4>Git & GitHub</h4>
+              <span>Version Control</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div class="skill-icon-wrapper"><i class='bx bx-terminal'></i></div>
+            <div class="skill-info">
+              <h4>VS Code</h4>
+              <span>Code Editor</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div class="skill-icon-wrapper"><i class='bx bx-paper-plane'></i></div>
+            <div class="skill-info">
+              <h4>Postman</h4>
+              <span>API Testing Tool</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Resume Timeline Section
+       ========================================================================== -->
+  <section class="section section-bg" id="resume">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge badge-accent">My Journey</span>
+        <h2>Resume & Timeline</h2>
+      </div>
+
+      <div class="resume-layout reveal">
+        <!-- Experience -->
+        <div class="resume-column">
+          <h3 class="resume-column-title"><i class='bx bx-briefcase'></i> Experience</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div class="timeline-duration">June 2026 - July 2026</div>
+              <h4 class="timeline-title">Full Stack Web Development Intern</h4>
+              <p class="timeline-subtitle">Future Interns (Fellowship Program)</p>
+              <div class="timeline-desc">
+                Completed several key milestones in building responsive and database-backed platforms:
+                <ul>
+                  <li>Designed and built a personalized professional portfolio layout representing MERN expertise.</li>
+                  <li>Drafted core architectures, managed mock databases, and styled components with optimal
+                    responsiveness.</li>
+                  <li>Collaborated on real-world development roadmaps and submitted validated applications.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div class="timeline-duration">2025 - Present</div>
+              <h4 class="timeline-title">Independent Web Developer</h4>
+              <p class="timeline-subtitle">Freelance / Open Source</p>
+              <div class="timeline-desc">
+                Constructed functional prototypes including weather forecast portals, fuel logs, and customizable online
+                stores. Optimized frontend layouts for high lighthouse scores and fast load-times.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="resume-column">
+          <h3 class="resume-column-title"><i class='bx bx-book-reader'></i> Education</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div class="timeline-duration">2023 - Present</div>
+              <h4 class="timeline-title">Bachelor of Computer Science</h4>
+              <p class="timeline-subtitle">Gujarat Technological University</p>
+              <div class="timeline-desc">
+                Pursuing a degree in Computer Science, focusing on Software Engineering, Object-Oriented Programming,
+                Database Systems, and Web Application Architectures. Maintains active involvement in tech workshops and
+                code clubs.
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div class="timeline-duration">Completed 2023</div>
+              <h4 class="timeline-title">Higher Secondary Education</h4>
+              <p class="timeline-subtitle">Science Stream</p>
+              <div class="timeline-desc">
+                Acquired secondary qualifications with a strong foundation in Mathematics, Physics, and Computer
+                Studies.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Projects Section
+       ========================================================================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">Selected Work</span>
+        <h2>My Projects</h2>
+      </div>
+
+      <div class="projects-wrapper reveal">
+        <ul class="projects-filter">
+          <li><button class="filter-btn active" data-filter="all">All Work</button></li>
+          <li><button class="filter-btn" data-filter="fullstack">Full Stack</button></li>
+          <li><button class="filter-btn" data-filter="frontend">Frontend & Utilities</button></li>
+        </ul>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: Perfume Store -->
+          <div class="project-card" data-category="fullstack">
+            <div class="project-image-box">
+              <div class="project-image-gradient"></div>
+              <i class='bx bx-shopping-bag project-icon-placeholder'></i>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">MERN Stack</span>
+                <span class="project-tag">Stripe</span>
+                <span class="project-tag">Redux</span>
+              </div>
+              <h3 class="project-title">Luxe Fragrance Boutique</h3>
+              <p class="project-desc">
+                A high-end monochrome E-Commerce platform for premium perfumes. Features user authentication,
+                customizable product pages, a responsive shopping cart, and a simulated Stripe payment checkout flow.
+              </p>
+              <div class="project-footer">
+                <span class="project-btn-details" data-project="perfume">Learn More <i
+                    class='bx bx-right-arrow-alt'></i></span>
+                <div class="project-links">
+                  <a href="https://github.com/mitulaghara/perfume-store-using-mernstack" target="_blank" rel="noopener"
+                    class="project-link-icon" aria-label="GitHub Repository"><i class='bx bxl-github'></i></a>
+                  <a href="#" class="project-link-icon" aria-label="Live Demo"><i class='bx bx-link-external'></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: EduTrackPro -->
+          <div class="project-card" data-category="frontend">
+            <div class="project-image-box">
+              <div class="project-image-gradient"></div>
+              <i class='bx bx-line-chart project-icon-placeholder'></i>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">HTML5</span>
+                <span class="project-tag">CSS3</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <h3 class="project-title">EduTrackPro</h3>
+              <p class="project-desc">
+                An interactive student performance tracking dashboard. Designed for teachers to visualize student
+                grades, check attendance analytics, and manage academic logs with clean interactive charts.
+              </p>
+              <div class="project-footer">
+                <span class="project-btn-details" data-project="edutrack">Learn More <i
+                    class='bx bx-right-arrow-alt'></i></span>
+                <div class="project-links">
+                  <a href="https://github.com/mitulaghara/EduTrackPro" target="_blank" rel="noopener"
+                    class="project-link-icon" aria-label="GitHub Repository"><i class='bx bxl-github'></i></a>
+                  <a href="#" class="project-link-icon" aria-label="Live Demo"><i class='bx bx-link-external'></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- Project 3: Personal Portfolio -->
+          <div class="project-card" data-category="frontend">
+            <div class="project-image-box">
+              <div class="project-image-gradient"></div>
+              <i class='bx bx-window-alt-side project-icon-placeholder'></i>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Semantic HTML</span>
+                <span class="project-tag">Vanilla CSS</span>
+                <span class="project-tag">Responsive</span>
+              </div>
+              <h3 class="project-title">Interactive Portfolio Website</h3>
+              <p class="project-desc">
+                The current professional white-themed website containing customizable modals, a responsive timeline, a
+                layout printer, theme toggler, and search engine optimization configurations.
+              </p>
+              <div class="project-footer">
+                <span class="project-btn-details" data-project="portfolio">Learn More <i
+                    class='bx bx-right-arrow-alt'></i></span>
+                <div class="project-links">
+                  <a href="https://github.com/mitulaghara/Portfolio" target="_blank" rel="noopener"
+                    class="project-link-icon" aria-label="GitHub Repository"><i class='bx bxl-github'></i></a>
+                  <a href="#" class="project-link-icon" aria-label="Live Demo"><i class='bx bx-link-external'></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Contact Form Section
+       ========================================================================== -->
+  <section class="section section-bg" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">Get in Touch</span>
+        <h2>Contact Me</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info-panel reveal">
+          <div class="contact-card">
+            <div class="contact-icon-wrapper"><i class='bx bx-envelope'></i></div>
+            <div class="contact-details">
+              <h4>Email Me</h4>
+              <p><a href="mailto:agharamitul@gmail.com">agharamitul@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon-wrapper"><i class='bx bxl-linkedin'></i></div>
+            <div class="contact-details">
+              <h4>LinkedIn</h4>
+              <p><a href="https://www.linkedin.com/in/mitul-aghara-602a72332" target="_blank"
+                  rel="noopener">linkedin.com/in/mitul-aghara</a></p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon-wrapper"><i class='bx bx-map'></i></div>
+            <div class="contact-details">
+              <h4>Location</h4>
+              <p>Gujarat, India</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-panel reveal">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="name" name="name" class="form-control" placeholder=" " required>
+                <label for="name" class="form-label">Full Name</label>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" name="email" class="form-control" placeholder=" " required>
+                <label for="email" class="form-label">Email Address</label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" class="form-control" placeholder=" " required>
+              <label for="subject" class="form-label">Subject</label>
+            </div>
+
+            <div class="form-group">
+              <textarea id="message" name="message" class="form-control" placeholder=" " required></textarea>
+              <label for="message" class="form-label">Your Message</label>
+            </div>
+
+            <div class="form-status" id="form-status"></div>
+
+            <button type="submit" class="btn btn-primary" id="form-submit-btn">
+              Send Message <i class='bx bx-paper-plane'></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Footer Section
+       ========================================================================== -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <a href="#home" class="logo">
+          <i class='bx bx-code-alt'></i> Mitul<span>.</span>
+        </a>
+
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="footer-socials">
+          <a href="https://github.com/mitulaghara" target="_blank" rel="noopener" class="social-link"
+            aria-label="GitHub Profile">
+            <i class='bx bxl-github'></i>
+          </a>
+          <a href="https://www.linkedin.com/in/mitul-aghara-602a72332" target="_blank" rel="noopener"
+            class="social-link" aria-label="LinkedIn Profile">
+            <i class='bx bxl-linkedin'></i>
+          </a>
+          <a href="mailto:agharamitul@gmail.com" class="social-link" aria-label="Email Address">
+            <i class='bx bx-envelope'></i>
+          </a>
+        </div>
+
+        <div class="footer-copyright">
+          &copy; <span id="copyright-year">2026</span> Mitul Aghara. Built for Future Interns Fellowship Program Task 1.
+          All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Interactive Project Details Modal
+       ========================================================================== -->
+  <div class="modal" id="project-modal">
+    <div class="modal-overlay" id="project-modal-overlay"></div>
+    <div class="modal-wrapper">
+      <div class="modal-header">
+        <h3 class="modal-title" id="pm-title">Project Title</h3>
+        <button class="modal-close" id="pm-close" aria-label="Close Modal"><i class='bx bx-x'></i></button>
+      </div>
+      <div class="modal-body">
+        <div class="project-modal-details">
+          <div class="pm-meta-grid">
+            <div class="pm-meta-item">
+              <h5>Stack & Tools</h5>
+              <div id="pm-stack" class="project-tags"></div>
+            </div>
+            <div class="pm-meta-item">
+              <h5>Codebase Link</h5>
+              <p id="pm-repo-container"><a href="#" id="pm-repo" target="_blank" rel="noopener" class="highlight"><i
+                    class='bx bxl-github'></i> View Repository</a></p>
+            </div>
+          </div>
+
+          <div>
+            <h4>Overview & Objective</h4>
+            <p id="pm-overview">Project description will go here.</p>
+          </div>
+
+          <div>
+            <h4>Key Features</h4>
+            <ul id="pm-features">
+              <!-- Features go here -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="resume-actions-footer">
+        <button class="btn btn-secondary" id="pm-footer-close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Interactive Resume Viewer Modal
+       ========================================================================== -->
+  <div class="modal" id="resume-modal">
+    <div class="modal-overlay" id="resume-modal-overlay"></div>
+    <div class="modal-wrapper">
+      <div class="modal-header">
+        <h3 class="modal-title">Interactive Resume</h3>
+        <button class="modal-close" id="resume-close" aria-label="Close Modal"><i class='bx bx-x'></i></button>
+      </div>
+      <div class="modal-body resume-modal-body">
+        <div class="resume-header">
+          <h2>Mitul J. Aghara</h2>
+          <p>MERN Stack Developer & Computer Science Student</p>
+          <div class="resume-contact-info">
+            <span><i class='bx bx-map'></i> Gujarat, India</span>
+            <span><i class='bx bxl-github'></i> github.com/mitulaghara</span>
+            <span><i class='bx bxl-linkedin'></i> linkedin.com/in/mitul-aghara</span>
+          </div>
+        </div>
+
+        <div class="resume-section">
+          <h3 class="resume-section-title">Professional Summary</h3>
+          <p>
+            Ambitious Computer Science student with a focus on building web applications using the MERN stack (MongoDB,
+            Express, React, Node.js). Experienced in designing interactive frontend UI with custom layouts and
+            optimizing database workflows. Currently strengthening skills through an engineering fellowship program.
+          </p>
+        </div>
+
+        <div class="resume-section">
+          <h3 class="resume-section-title">Work History</h3>
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <span>Full Stack Web Development Intern</span>
+              <span>June 2026 - July 2026</span>
+            </div>
+            <div class="resume-item-subheader">
+              <span>Future Interns (Fellowship)</span>
+              <span>Gujarat, India (Remote)</span>
+            </div>
+            <ul>
+              <li>Created a premium professional portfolio layout incorporating customized responsiveness, modular
+                elements, and dynamic filters.</li>
+              <li>Formulated layout wireframes, structured components for cross-device compatibility, and implemented
+                smooth scroll animations.</li>
+              <li>Designed schemas and frontend models for web utility tasks.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="resume-section">
+          <h3 class="resume-section-title">Academic History</h3>
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <span>Bachelor of Computer Science</span>
+              <span>2023 - Present</span>
+            </div>
+            <div class="resume-item-subheader">
+              <span>Gujarat Technological University</span>
+              <span>Gujarat, India</span>
+            </div>
+            <ul>
+              <li>Focusing on Web Architectures, Database Administration, and Algorithms.</li>
+              <li>Participating in hackathons and developer meetings.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="resume-section">
+          <h3 class="resume-section-title">Skills & Technologies</h3>
+          <div class="resume-skills-grid">
+            <div class="resume-skill-cat">
+              <strong>Frontend</strong>
+              <p>React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Bootstrap</p>
+            </div>
+            <div class="resume-skill-cat">
+              <strong>Backend & DB</strong>
+              <p>Node.js, Express.js, MongoDB, MySQL</p>
+            </div>
+            <div class="resume-skill-cat">
+              <strong>Tools</strong>
+              <p>Git, GitHub, VS Code, Postman, NPM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="resume-actions-footer">
+        <button class="btn btn-secondary" id="resume-print-btn"><i class='bx bx-printer'></i> Print / Save PDF</button>
+        <button class="btn btn-primary" id="resume-footer-close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
