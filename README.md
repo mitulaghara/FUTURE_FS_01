@@ -2,6 +2,8 @@
 
 A premium, highly responsive, and SEO-optimized professional portfolio website designed for full-stack developers and computer science professionals. Hand-crafted using clean, modern, and standard web technologies.
 
+🔗 **Live Demo:** [personal-portfolio-intern.netlify.app](https://personal-portfolio-intern.netlify.app/)
+
 ---
 
 ## ✨ Features
